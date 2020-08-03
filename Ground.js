@@ -9,6 +9,7 @@ class Ground {
       World.add(world, this.body);
     }
     display(){
+      strokeWeight(1);
       var pos =this.body.position;
       rectMode(CENTER);
       fill("brown");
